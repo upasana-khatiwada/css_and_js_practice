@@ -1,0 +1,97 @@
+body{
+    font-family: 'Montserrat', sans-serif;
+
+}
+
+#product-overview{
+    background: #ff1b68;
+    width: 100%;
+    height: 528px;
+    /* padding: 10px;
+    border: 5px solid black;
+    margin: 10px; */
+}
+.section-title{
+    color: #2ddf5c;
+}
+
+#product-overview  h1{
+    color: white;
+    font-family: 'Anton', sans-serif; 
+} 
+
+.main-header{
+    width: 100%;
+    background: #2ddf5c;
+    padding: 8px 16px;
+}
+.main-header> div{
+    display: inline-block;
+} 
+.main_header_brand{
+    color: #0e4f1f;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 22px;
+}
+.main-nav{
+    display: inline-block;
+    text-align: right;
+    width: calc(100% - 74px);
+    vertical-align: middle;
+
+} 
+
+.main-nav__items{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+
+
+/* display allows to change the behaviour 
+from block to inline or even to inline block */
+
+.main-nav__item{
+    display: inline-block;
+    margin: 0  16px;
+    
+}
+
+/*to remove underline in 'package''customers''stars hosting'*/
+.main-nav__item a {
+    color: #0e4f1f;
+    text-decoration: none;
+    font-weight: bold;
+    /* font-size: 22px; */
+    padding: 3px 0;
+   
+}
+ /*to hover link (pseudo class)*/
+ /* pseudo :class name defines the style of a special state of an element
+ /* pseudo ::element name defines the style of a specific part of an element*/
+.main-nav__item a:hover,
+.main-nav__item a:active
+{
+    color: white;
+    border-bottom: 5px solid white;
+}
+/*cta - call to action */
+.main-nav__item--cta a{
+    color: white;
+    background: #ff1b68;
+    padding: 8px 16px;
+    border-radius: 8px;
+}
+
+.main-nav__item--cta a:hover,
+.main-nav__item--cta a:active {
+    color: #ff1b68;
+    background: white;
+    border: none;
+}
+
+   
+
+
+

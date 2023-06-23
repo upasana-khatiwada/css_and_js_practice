@@ -1,11 +1,4 @@
-* {
-    box-sizing: border-box;
-}
 
-body{
-    font-family: 'Montserrat', sans-serif;
-    margin: 0;
-}
 
 #product-overview{
     background: url(freedom.jpg);
@@ -25,6 +18,12 @@ body{
     color: white;
     font-family: 'Anton', sans-serif; 
 } 
+
+.plan__list{
+    width: 85%;
+    margin: auto;
+    text-align: center;
+}
 
 .plan {
     background: #d5ffdc;
@@ -80,23 +79,7 @@ body{
     margin: 8px 0;
  }
 
- .button{
-    background: #0e4f1f;
-    color: white;
-    font: inherit;
-    border: 1.5px solid #0e4f1f;
-    padding: 8px;
-    border-radius: 8px;
-    font-weight: bold;
-    cursor: pointer;
 
- }
- .button:hover,
- .button:active{
-    background: white;
-    color: #0e4f1f;
-
- }
 
  #key-features{
     background: #ff1b68;
@@ -144,7 +127,7 @@ body{
 
  }
 
-.main-header{
+/* .main-header{
     width: 100%;
     background: #2ddf5c;
     padding: 8px 16px;
@@ -194,14 +177,14 @@ from block to inline or even to inline block */
  /*to hover link (pseudo class)*/
  /* pseudo :class name defines the style of a special state of an element
  /* pseudo ::element name defines the style of a specific part of an element*/
-.main-nav__item a:hover,
+/* .main-nav__item a:hover,
 .main-nav__item a:active
 {
     color: white;
     border-bottom: 5px solid white;
 }
 /*cta - call to action */
-.main-nav__item--cta a{
+/* .main-nav__item--cta a{
     color: white;
     background: #ff1b68;
     padding: 8px 16px;
@@ -242,8 +225,8 @@ from block to inline or even to inline block */
 
 .main-footer__link a:hover,
 .main-footer__link a:active{
-    color: #ccc;
-}
+    color: #ccc ;
+} */ 
 
 
 

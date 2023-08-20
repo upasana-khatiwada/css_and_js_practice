@@ -1,0 +1,22 @@
+#p1{
+        color: blue;
+        font-size: 30px;
+}
+
+#p2{
+    color: red;
+    font-size: 30px;
+
+}
+
+
+li>p{
+    color: brown;
+}
+li>h1{
+    color: blueviolet;
+}
+
+li h2{
+    color: aquamarine;
+}

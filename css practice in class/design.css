@@ -1,0 +1,16 @@
+.box{
+    border: 20px solid Red;
+    height: 300px;
+    width: auto;
+    padding: 30px 40px 50px 60px;
+    margin: 50px;
+    
+}
+#b1{
+    font-size: 130px;
+    text-align: center;
+}
+*{
+    margin: 0;
+    padding: 0;
+}

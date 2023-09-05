@@ -1,0 +1,42 @@
+body{
+    background-color: bisque;
+    display: grid;
+}
+
+.container{
+    height: 100%;
+    width: 100%;
+    margin: auto;
+    display: grid;
+    place-items:center;
+}
+
+.slide-container{
+   display: flex;
+   width: 500px;
+   animation: slide 20s infinite linear;
+}
+
+@keyframes slide{
+    0%{
+        transform: translateX(20px)
+    }
+    100%{
+        transform: translate(-1000px)
+    }
+}
+
+.slide-image{
+    padding: 20px;
+    perspective: 500px;
+
+}
+
+img{
+    width: 500px;
+    transition: transform 1s;
+}
+
+img:hover{
+    transform: translateZ(50px);
+}

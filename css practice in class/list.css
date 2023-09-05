@@ -1,0 +1,13 @@
+ul{
+    list-style: lower-latin;
+    list-style-position: inside;
+    /* list-style-position: outside; */
+}
+
+/* li.a{
+    list-style: circle;
+}
+
+li.b{
+    list-style: disc;
+} */

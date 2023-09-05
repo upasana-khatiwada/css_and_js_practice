@@ -1,16 +1,39 @@
-.box{
+.box1{
     border: 20px solid Red;
     height: 300px;
-    width: auto;
+    width: 300px;
     padding: 30px 40px 50px 60px;
     margin: 50px;
+    overflow: scroll;
+    
     
 }
+.box2{
+    border: 20px solid Red;
+    height: 300px;
+    width: 300px;
+    padding: 30px 40px 50px 60px;
+    margin: 60px;
+    overflow: auto;
+    
+    
+}
+
 #b1{
-    font-size: 130px;
+    font-size: 80px;
     text-align: center;
 }
+
 *{
     margin: 0;
     padding: 0;
+    box-sizing: content-box;
+    /* display: inline-block; */
 }
+div.up{
+    display: inline-block;
+}
+div.down{
+    display: inline-block;
+}
+

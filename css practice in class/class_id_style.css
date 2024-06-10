@@ -10,7 +10,7 @@
 }
 
 
-li>p{
+li p{
     color: brown;
 }
 li>h1{
@@ -19,4 +19,11 @@ li>h1{
 
 li h2{
     color: aquamarine;
+}
+
+.p1{
+    color:blueviolet;
+    background-color: bisque;
+    
+
 }
